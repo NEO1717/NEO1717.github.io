@@ -17,7 +17,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="#about">關於我</a></li>
             <li class="nav-item"><a class="nav-link" href="#projects">作品集</a></li>
             <li class="nav-item"><a class="nav-link" href="#contact">聯絡方式</a></li>
@@ -26,6 +26,10 @@
         </div>
       </div>
     </nav>
+    <!-- 個人大頭貼 -->
+    <div class="container mt-3 text-center">
+      <img src="Photo/photo0.png" alt="Personal Photo" class="img-fluid rounded-circle" style="max-width: 200px;">
+    </div>
   </header>
 
   <main class="container mt-5">
@@ -51,7 +55,7 @@
               <p class="card-text">
                 實時手部動態解析儀 (Real-time Hand Motion Analyzer)<br>
                 --------------------<br>
-                本作品是一個基於 Python 的即時肢體偵測與手勢數值分析系統。透過先進的姿態估計技術，本系統能夠精確地追蹤畫面中人體的關鍵關節點，並在此基礎上進一步分析左右手的動態和形態。
+                本作品是一個基於 Python 的即時肢體偵測與手勢數值分析系統。
               </p>
             </div>
           </div>
@@ -65,8 +69,7 @@
               <img src="Photo/photo2.png" alt="Baseball Original" class="img-fluid mb-3">
               <p class="card-text">
                 棒球揮棒姿勢分析系統 (Baseball Batting Pose Analyzer)<br>
-                --------------------<br>
-                這個系統專門用於分析棒球選手的揮棒姿勢。透過先進的姿態估計技術，系統能夠自動識別並追蹤選手的關鍵關節點，生成骨架模型進行動作分析。
+                --------------------
               </p>
             </div>
           </div>
@@ -80,19 +83,18 @@
               <img src="Photo/photo3.png" alt="Gesture Recognition" class="img-fluid mb-3">
               <p class="card-text">
                 姿態估計與動作分析系統 (Pose Estimation and Motion Analysis System)<br>
-                --------------------<br>
-                這個系統使用深度學習技術來分析人體動作。透過電腦視覺和機器學習算法，系統可以即時追蹤並分析人體的關鍵點，幫助使用者更好地理解和改進他們的動作姿態。
+                --------------------
               </p>
             </div>
           </div>
         </div>
 
-        <!-- 新增作品：影片展示 -->
-        <div class="col-md-4">
+        <!-- 調整後作品 4：加大影片框格並修正路徑 -->
+        <div class="col-md-8 offset-md-2">
           <div class="card mb-4">
             <div class="card-body">
               <h3 class="card-title">作品 4：Demo 影片</h3>
-              <video controls class="img-fluid mb-3">
+              <video controls class="w-100 mb-3">
                 <source src="vid/SmartDigest_DEMO.mp4" type="video/mp4">
                 您的瀏覽器不支援影片播放。
               </video>
